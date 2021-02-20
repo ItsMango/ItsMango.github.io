@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itsmango.github.io</id>
     <title>是芒果啊的Space</title>
-    <updated>2021-02-20T10:25:05.886Z</updated>
+    <updated>2021-02-20T11:16:22.617Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://itsmango.github.io"/>
     <link rel="self" href="https://itsmango.github.io/atom.xml"/>
@@ -11,12 +11,42 @@
     <icon>https://itsmango.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 是芒果啊的Space</rights>
     <entry>
+        <title type="html"><![CDATA[使用Gridea]]></title>
+        <id>https://itsmango.github.io/post/shi-yong-gridea/</id>
+        <link href="https://itsmango.github.io/post/shi-yong-gridea/">
+        </link>
+        <updated>2021-02-20T10:25:34.000Z</updated>
+        <content type="html"><![CDATA[<p>（ref: https://blog.csdn.net/weimeibuqieryu/article/details/108265362）</p>
+<ul>
+<li>
+<p>Github设置<br>
+首先创建新的仓库，仓库名有要求，需要是**.github.io**结尾，<br>
+仓库名是你之后用于访问所写文章的地址<br>
+<img src="https://itsmango.github.io/post-images/1613818249842.PNG" alt="create_repo" loading="lazy"></p>
+<p>然后生成Tokens，找到账户中的<strong>Setting</strong>，选择<strong>Developer Settings</strong>，点击<strong>Personal access tokens</strong>右上角的<strong>Generate new token</strong>打开如下页面，保存红框内的token（需要注意，在得到token后先保存它，一旦网页关闭就不会再次显示，只能重新生成token）<br>
+<img src="https://itsmango.github.io/post-images/1613818266252.PNG" alt="generate_token" loading="lazy"></p>
+</li>
+<li>
+<p>Gridea设置<br>
+安装并打开Gridea，选择左侧<strong>远程</strong>进行配置，<br>
+Github的信息填入<strong>域名</strong>、<strong>分支</strong>等，token填入<strong>令牌</strong>，<br>
+点击右下角<strong>保存</strong>，然后点击右侧<strong>检测远程连接</strong>，若成功顶部会有提示，<br>
+最后进行<strong>同步</strong><br>
+<img src="https://itsmango.github.io/post-images/1613819094677.PNG" alt="" loading="lazy"></p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[About]]></title>
         <id>https://itsmango.github.io/post/about/</id>
         <link href="https://itsmango.github.io/post/about/">
         </link>
         <updated>2021-02-20T10:22:15.000Z</updated>
-        <content type="html"><![CDATA[<p>...</p>
+        <content type="html"><![CDATA[<p><img src="https://itsmango.github.io/post-images/1613819280656.jpg" alt="" loading="lazy"><br>
+这是我的博客，会进行知识回顾、经验记录、工作总结等......<br>
+如果有任何疑问、纰漏或不同意见，一定是我知识还不够健全、经验还不够丰富，请友善地指出~<br>
+如果对你有所帮助欢迎进行分享~~</p>
 ]]></content>
     </entry>
     <entry>
