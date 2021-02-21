@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>使用Gridea | 是芒果啊的Space</title>
+<title>MD使用细节 | 是芒果啊的Space</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,12 +18,16 @@
 
 
 
-    <meta name="description" content="（ref: https://blog.csdn.net/weimeibuqieryu/article/details/108265362）
+    <meta name="description" content="记录MD中常见使用细节
+(ref:
+(Markdown 代码块与语法高亮
+(markdown 中的一些 html 使用属性
 
-
-Github设置
-首先创建新的仓库，仓库名有要求，需要是**.github.io**结尾，
-仓库..." />
+MD自有语法
+代码块
+    ```python
+    #!/usr/bin/env python3
+    p..." />
     <meta name="keywords" content="Misc" />
   </head>
   <body>
@@ -101,29 +105,48 @@ Github设置
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">使用Gridea</h2>
-            <div class="post-date">2021-02-20</div>
+            <h2 class="post-title">MD使用细节</h2>
+            <div class="post-date">2021-02-21</div>
             
             <div class="post-content" v-pre>
-              <p>（ref: https://blog.csdn.net/weimeibuqieryu/article/details/108265362）</p>
-<ul>
-<li>
-<p>Github设置<br>
-首先创建新的仓库，仓库名有要求，需要是**.github.io**结尾，<br>
-仓库名是你之后用于访问所写文章的地址<br>
-<img src="https://itsmango.github.io/post-images/1613818249842.PNG" alt="create_repo" loading="lazy"></p>
-<p>然后生成Tokens，找到账户中的<strong>Setting</strong>，选择<strong>Developer Settings</strong>，点击<strong>Personal access tokens</strong>右上角的<strong>Generate new token</strong>打开如下页面，保存红框内的token（需要注意，在得到token后先保存它，一旦网页关闭就不会再次显示，只能重新生成token）<br>
-<img src="https://itsmango.github.io/post-images/1613818266252.PNG" alt="generate_token" loading="lazy"></p>
-</li>
-<li>
-<p>Gridea设置<br>
-安装并打开Gridea，选择左侧<strong>远程</strong>进行配置，<br>
-Github的信息填入<strong>域名</strong>、<strong>分支</strong>等，token填入<strong>令牌</strong>，<br>
-点击右下角<strong>保存</strong>，然后点击右侧<strong>检测远程连接</strong>，若成功顶部会有提示，<br>
-最后进行<strong>同步</strong><br>
-<img src="https://itsmango.github.io/post-images/1613819094677.PNG" alt="" loading="lazy"></p>
-</li>
-</ul>
+              <p>记录MD中常见使用细节<br>
+(ref:<br>
+(<a href="https://www.jianshu.com/p/65ab196bef04">Markdown 代码块与语法高亮</a><br>
+(<a href="https://blog.csdn.net/smilejiasmile/article/details/89511888?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=0c28ec8b-e09f-4790-b124-80e9890e73d4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control"/>markdown 中的一些 html 使用属性</a></p>
+</br>
+<h2 id="md自有语法"><strong>MD自有语法</strong></h2>
+<h3 id="代码块"><strong>代码块</strong></h3>
+<pre><code class="language-markdown">    ```python
+    #!/usr/bin/env python3
+    print(&quot;Hello, World!&quot;);
+    ```
+</code></pre>
+<h3 id="其他"><strong>其他</strong></h3>
+<pre><code class="language-markdown">    #      H1
+    ##     H2
+    ###    H3
+    
+    -      方块列表
+    1.     序号列表
+    
+    &gt;      引用
+    ---    分割线
+
+    *斜体*
+    **粗体**
+    ***加粗斜体***
+    ~~删除线~~
+</code></pre>
+</br>
+<h2 id="html兼容"><strong>HTML兼容</strong></h2>
+<pre><code class="language-html">    &lt;/br&gt;   换行
+    &lt;center&gt;居中显示&lt;/center&gt;
+    &lt;p align=&quot;right&quot;&gt;段落右对齐&lt;/p&gt;
+    &lt;font face=&quot;黑体&quot; size=72 color=red&gt;设置字体&lt;/font&gt;
+    &amp;ensp;    一个空格
+    &amp;emsp;    两个空格
+    &amp;nbsp;    不换行空格
+</code></pre>
 
             </div>
             
@@ -138,9 +161,9 @@ Github的信息填入<strong>域名</strong>、<strong>分支</strong>等，toke
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://itsmango.github.io/post/about/">
+                <a href="https://itsmango.github.io/post/test-1/">
                   <h3 class="post-title">
-                    About
+                    Test 1
                   </h3>
                 </a>
               </div>
